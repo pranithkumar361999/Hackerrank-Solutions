@@ -1,0 +1,13 @@
+#!/bin/python3
+
+n,k=map(int,input().split())
+ls=list(map(int,input().split()))
+ls.sort()
+c=0
+s=0
+for i in range(n):
+    s+=ls[i]
+    if s<=k:
+        c+=1
+print(c)
+    

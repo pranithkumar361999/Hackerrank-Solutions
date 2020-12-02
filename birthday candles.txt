@@ -1,0 +1,6 @@
+
+#!/bin/python3
+n=int(input())
+ls=list(map(int,input().split()))
+a=max(ls)
+print(ls.count(a))

@@ -1,0 +1,14 @@
+#!/bin/python3
+
+n=int(input())
+ls=list(map(int,input().split()))
+c=0
+ct=0
+ls.sort()
+while c<n-1:
+    if ls[c]==ls[c+1]:
+        c+=2
+        ct+=1
+    else:
+        c+=1
+print(ct)
