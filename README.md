@@ -1,2 +1,2 @@
 # Hackerrank-Solutions
-It contains all the hackerrank solutions which i solved.
+It contains all the hackerrank solutions which i have solved.
